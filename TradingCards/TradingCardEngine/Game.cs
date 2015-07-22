@@ -136,6 +136,10 @@ namespace TradingCardEngine
                     playerTurn = 1;
                 }
             }
+        }
+
+        private void unnededMethod()
+        {
         } 
     }
 }
