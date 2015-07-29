@@ -1,0 +1,45 @@
+* Needed
+
+  * Visual Studio with Resharper
+  * Application with no refactoring, unneded code, unneded references.
+
+* How it goes
+** Show the application without Resharper.
+  VS2015 has brought some of the tools that were already present on Resharper
+*** TODO Show the following:
+  - [ ] The code all the same color. Unneded using statements now appear greyed out
+  - [ ] Renaming has improved 
+  - [ ] options available on the right click  menu
+  - [ ] Some squiggles
+  - [ ] Ctrl+. options
+  - [ ] Show refactor options
+** Show the application on VS with Resharper
+Resharper is massive in scope
+*** TODO Show the following:
+  - [ ] Shaded unused code
+  - [ ] options available on the right click menu
+  - [ ] More squiggles
+  - [ ] unused code
+  - [ ] more intellisense
+*** TODO Demonstrate the use of alt+enter
+  - [ ] Create classes -> Player
+  - [ ] Create methods -> NextCard
+  - [ ] Create fields out of constructor parameters
+  - [ ] Add references and using statements as part of intellisense -> Deck Constructor
+  - [ ] Refactor code
+  - [ ] Code suggestions
+*** TODO Show refactor options 
+Ctrl+Shift+R
+  - [ ] Rename -> PlayersAreAlive
+  - [ ] Extract Method -> BothPlayersAreAlive
+  - [ ] Extract class
+  - [ ] Extract Interface
+*** TODO Advanced usages
+  - [ ] Show options
+*** TODO Unit Tests runner
+  - [ ] Show unit test runner
+*** TODO ToDo lists
+*** TODO Options
+  - [ ] Use CamelHumps
+  - [ ] Closing brace
+  - [ ] Code Editing
