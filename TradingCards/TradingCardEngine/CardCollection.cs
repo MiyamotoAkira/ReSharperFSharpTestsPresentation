@@ -1,16 +1,16 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace TradingCardEngine
 {
-    internal class CardCollection
+    public class CardCollection : ICardCollection
     {
         private readonly List<Card> _cards;
 
         public CardCollection()
         {
+            _cards = new List<Card>();
         }
 
         public CardCollection(IEnumerable<Card> cards)
@@ -19,9 +19,7 @@ namespace TradingCardEngine
         }
 
         public int Count => _cards.Count;
-
         public void AddCard(Card card) => _cards.Add(card);
-
         public void RemoveCard(Card card) => _cards.Remove(card);
 
         public Card GetRandom()
@@ -33,12 +31,12 @@ namespace TradingCardEngine
 
         public void RemoveLast()
         {
-            _cards.RemoveAt(_cards.Count -1);
+            _cards.RemoveAt(_cards.Count - 1);
         }
 
         public string ShowAsString()
         {
-            return String.Join(",", _cards);
+            return string.Join(",", _cards);
         }
 
         public void RemoveCardWithValue(int value)

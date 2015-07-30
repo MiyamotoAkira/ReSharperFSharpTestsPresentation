@@ -21,6 +21,7 @@ Resharper is massive in scope
   - [ ] More squiggles
   - [ ] unused code
   - [ ] more intellisense
+ -  [ ] Navigate To
 *** TODO Demonstrate the use of alt+enter
   - [ ] Create classes -> Player
   - [ ] Create methods -> NextCard
@@ -34,11 +35,18 @@ Ctrl+Shift+R
   - [ ] Extract Method -> BothPlayersAreAlive
   - [ ] Extract class
   - [ ] Extract Interface
+*** TODO More options
+  - [ ] Insert Code
 *** TODO Advanced usages
   - [ ] Show options
+  - [ ] Cleanup Code
 *** TODO Unit Tests runner
   - [ ] Show unit test runner
+  - [ ] Run tests
+  - [ ] Test sessions
+  - [ ] Rename sessions
 *** TODO ToDo lists
+  - [ ] Search, Group By, Filter
 *** TODO Options
   - [ ] Use CamelHumps
   - [ ] Closing brace

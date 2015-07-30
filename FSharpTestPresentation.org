@@ -1,0 +1,36 @@
+* What is F#
+  - [ ] .Net Language
+  - [ ] Multiparadigm but based on functional
+  - [ ] What do you do instead of how
+  - [ ] OCaml child
+  - [ ] Inmutable by default
+  - [ ] Static, but Type Inference
+  - [ ] Identation scopes
+  - [ ] Order of declaration (Files and code)
+* Why F#
+  - [ ] Succint language
+  - [ ] Less lines of code, less bugs
+  - [ ] Easier to reason about the problem
+  - [ ] Less cruft code -> Most design patterns do not apply
+  - [ ] Concurrency? Not a difficult issue
+  - [ ] F# Console
+  - [ ] Native access to all C#
+  - [ ] Units of Measure
+* F# as a test
+** Why?
+  - [ ] All the above
+  - [ ] Readable Names
+  - [ ] No need of creating classes
+** The internals
+  - [ ] NUnit
+  - [ ] FsUnit
+  - [ ] FsCheck
+  - [ ] NSubstitute
+  - [ ] Moq
+  - [ ] On the spot interface class creation
+  - [ ] Foq
+  - [ ] Code quotations
+  - [ ] Specflow
+  - [ ] TickSpec
+  - [ ] Selenium
+  - [ ] Canopy

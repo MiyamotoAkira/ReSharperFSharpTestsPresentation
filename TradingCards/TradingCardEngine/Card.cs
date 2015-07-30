@@ -1,8 +1,8 @@
-﻿using System.CodeDom;
+﻿using System;
 
 namespace TradingCardEngine
 {
-    internal class Card
+    public class Card : IComparable<Card>
     {
         public Card(int cost, int damage)
         {
@@ -13,6 +13,20 @@ namespace TradingCardEngine
         public int Cost { get; }
 
         public int Damage { get; }
+
+        public int CompareTo(Card other)
+        {
+            if (this.Cost == other.Cost && this.Damage == other.Damage)
+            {
+                return 0;
+            }
+            else if (this.Cost > other.Cost || this.Damage > other.Damage)
+            {
+                return 1;
+            }
+
+            return -1;
+        }
 
         public override string ToString()
         {

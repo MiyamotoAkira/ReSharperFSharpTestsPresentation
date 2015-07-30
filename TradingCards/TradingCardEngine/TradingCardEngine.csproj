@@ -43,6 +43,7 @@
     <Compile Include="Card.cs" />
     <Compile Include="CardCollection.cs" />
     <Compile Include="Game.cs" />
+    <Compile Include="ICardCollection.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

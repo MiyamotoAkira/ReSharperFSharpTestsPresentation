@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using static System.Console;
 
 namespace TradingCardEngine
@@ -14,6 +13,7 @@ namespace TradingCardEngine
             var deck1 = CreateBasicDeck();
             var deck2 = CreateBasicDeck();
 
+            // ToDo: Create a start hand
             player1.SetDeck(deck1);
             player1.AddCardToHand();
             player1.AddCardToHand();
@@ -31,7 +31,6 @@ namespace TradingCardEngine
                 WriteLine($"Player1 Life :{player1.Life} Mana: {player1.Mana}");
                 WriteLine($"Player2 Life :{player2.Life} Mana: {player2.Mana}");
                 PlayerTurn(ref activePlayer, ref inactivePlayer);
-                
             }
         }
 
@@ -98,26 +97,26 @@ namespace TradingCardEngine
         {
             return new CardCollection(new List<Card>
             {
-                new Card(0,0),
-                new Card(0,0),
-                new Card(1,1),
-                new Card(1,1),
-                new Card(2,2),
-                new Card(2,2),
-                new Card(2,2),
-                new Card(3,3),
-                new Card(3,3),
-                new Card(3,3),
-                new Card(3,3),
-                new Card(4,4),
-                new Card(4,4),
-                new Card(4,4),
-                new Card(5,5),
-                new Card(5,5),
-                new Card(6,6),
-                new Card(6,6),
-                new Card(7,7),
-                new Card(8,8)
+                new Card(0, 0),
+                new Card(0, 0),
+                new Card(1, 1),
+                new Card(1, 1),
+                new Card(2, 2),
+                new Card(2, 2),
+                new Card(2, 2),
+                new Card(3, 3),
+                new Card(3, 3),
+                new Card(3, 3),
+                new Card(3, 3),
+                new Card(4, 4),
+                new Card(4, 4),
+                new Card(4, 4),
+                new Card(5, 5),
+                new Card(5, 5),
+                new Card(6, 6),
+                new Card(6, 6),
+                new Card(7, 7),
+                new Card(8, 8)
             });
         }
 
@@ -128,6 +127,6 @@ namespace TradingCardEngine
 
         private void unnededMethod()
         {
-        } 
+        }
     }
 }

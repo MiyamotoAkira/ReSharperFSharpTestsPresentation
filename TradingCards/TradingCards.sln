@@ -7,9 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingCardEngine", "Tradin
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{9613516B-0560-40C8-880C-D98197DFFE14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingCardEngineTests", "TradingCardEngineTests\TradingCardEngineTests.csproj", "{972E3349-D559-419A-A339-042B71EA0277}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingCardCli", "TradingCardCli\TradingCardCli.csproj", "{998BFCEC-1B72-469D-AEF4-36A6BD403DFC}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TradingCardEngineUnitTests", "TradingCardEngineUnitTests\TradingCardEngineUnitTests.fsproj", "{5D789D16-0868-4B18-B01F-5B816232F194}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration Tests", "Integration Tests", "{56BC0AC3-5E15-4C69-A719-D6BB6F6135C1}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TradingCardIntegrationTests", "TradingCardIntegrationTests\TradingCardIntegrationTests.fsproj", "{126D4472-2F60-4C5B-9873-BC8B29C3656D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,19 +25,24 @@ Global
 		{3D8843B6-3D0B-458E-BA50-FB04198BB8A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D8843B6-3D0B-458E-BA50-FB04198BB8A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D8843B6-3D0B-458E-BA50-FB04198BB8A2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{972E3349-D559-419A-A339-042B71EA0277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{972E3349-D559-419A-A339-042B71EA0277}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{972E3349-D559-419A-A339-042B71EA0277}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{972E3349-D559-419A-A339-042B71EA0277}.Release|Any CPU.Build.0 = Release|Any CPU
 		{998BFCEC-1B72-469D-AEF4-36A6BD403DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{998BFCEC-1B72-469D-AEF4-36A6BD403DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{998BFCEC-1B72-469D-AEF4-36A6BD403DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{998BFCEC-1B72-469D-AEF4-36A6BD403DFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D789D16-0868-4B18-B01F-5B816232F194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D789D16-0868-4B18-B01F-5B816232F194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D789D16-0868-4B18-B01F-5B816232F194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D789D16-0868-4B18-B01F-5B816232F194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{126D4472-2F60-4C5B-9873-BC8B29C3656D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{126D4472-2F60-4C5B-9873-BC8B29C3656D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{126D4472-2F60-4C5B-9873-BC8B29C3656D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{126D4472-2F60-4C5B-9873-BC8B29C3656D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{972E3349-D559-419A-A339-042B71EA0277} = {9613516B-0560-40C8-880C-D98197DFFE14}
+		{5D789D16-0868-4B18-B01F-5B816232F194} = {9613516B-0560-40C8-880C-D98197DFFE14}
+		{126D4472-2F60-4C5B-9873-BC8B29C3656D} = {56BC0AC3-5E15-4C69-A719-D6BB6F6135C1}
 	EndGlobalSection
 EndGlobal

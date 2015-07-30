@@ -1,21 +1,17 @@
-﻿using System;
-using System.Runtime.InteropServices;
-using System.Security.Cryptography.X509Certificates;
-
-namespace TradingCardEngine
+﻿namespace TradingCardEngine
 {
-    internal class Player
+    public class Player
     {
         private int life;
         private int mana;
-        private CardCollection deck;
-        private CardCollection hand;
+        private ICardCollection deck;
+        private ICardCollection hand;
 
         public Player()
         {
             life = 30;
             mana = 0;
-             hand = new CardCollection();
+            hand = new CardCollection();
         }
 
         public void DamagePlayer(int damageaValue) => life -= damageaValue;
@@ -24,7 +20,7 @@ namespace TradingCardEngine
 
         public bool IsPlayerAlive() => life > 0;
 
-        public void SetDeck(CardCollection deck)
+        public void SetDeck(ICardCollection deck)
         {
             this.deck = deck;
         }
