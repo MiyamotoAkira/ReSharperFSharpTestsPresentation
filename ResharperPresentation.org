@@ -3,6 +3,7 @@
   - Visual Studio with Resharper
   - Application with no refactoring, unneded code, unneded references.
   - Close everything but emacs and VS
+  - Key Caster
 
 * How it goes
 ** Show the application without Resharper.
@@ -23,7 +24,11 @@ Resharper is massive in scope
   - [ ] More squiggles
   - [ ] unused code
   - [ ] more intellisense
- -  [ ] Navigate To
+  - [ ] Navigate To
+	- [ ] General
+    - [ ] Everything
+    - [ ] File
+    - [ ] Members
 *** TODO Demonstrate the use of alt+enter [0/6]
   - [ ] Create classes -> Player
   - [ ] Create methods -> NextCard
