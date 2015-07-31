@@ -8,7 +8,7 @@
 * How it goes
 ** Show the application without Resharper.
   VS2015 has brought some of the tools that were already present on Resharper
-*** TODO Show the following: [0/6]
+*** TODO Show the following: [0/7]
   - [ ] The code all the same color. Unneded using statements now appear greyed out
   - [ ] Renaming has improved 
   - [ ] options available on the right click  menu
@@ -18,13 +18,12 @@
   - [ ] No brace completion
 ** Show the application on VS with Resharper
 Resharper is massive in scope
-*** TODO Show the following: [0/6]
+*** TODO Show the following: [0/5]
   - [ ] Shaded unused code
   - [ ] options available on the right click menu
   - [ ] More squiggles
-  - [ ] unused code
   - [ ] more intellisense
-  - [ ] Navigate To
+  - [ ] Navigate To [0/4]
 	- [ ] General
     - [ ] Everything
     - [ ] File
@@ -34,20 +33,17 @@ Resharper is massive in scope
   - [ ] Create methods -> NextCard
   - [ ] Create fields out of constructor parameters
   - [ ] Add references and using statements as part of intellisense -> Deck Constructor
-  - [ ] Refactor code
+  - [ ] Refactor code [0/6]
+    - [ ] Rename -> PlayersAreAlive
+    - [ ] Extract Method -> BothPlayersAreAlive
+    - [ ] Extract class
+    - [ ] Extract Interface
+    - [ ] Move to another file
+    - [ ] Insert code
+    - [ ] Surround code
   - [ ] Code suggestions
-*** TODO Show refactor options [0/4]
-Ctrl+Shift+R
-  - [ ] Rename -> PlayersAreAlive
-  - [ ] Extract Method -> BothPlayersAreAlive
-  - [ ] Extract class
-  - [ ] Extract Interface
-*** TODO Options [0/3]
-  - [ ] Use CamelHumps
   - [ ] Closing brace
-  - [ ] Code Editing
-*** TODO More options [0/3]
-  - [ ] Insert Code
+*** TODO Options [0/3]
   - [ ] Show options
   - [ ] Cleanup Code
 *** TODO Unit Tests runner [0/4]
