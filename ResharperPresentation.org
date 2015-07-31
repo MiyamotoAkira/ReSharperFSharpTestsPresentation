@@ -1,53 +1,54 @@
 * Needed
 
-  * Visual Studio with Resharper
-  * Application with no refactoring, unneded code, unneded references.
+  - Visual Studio with Resharper
+  - Application with no refactoring, unneded code, unneded references.
+  - Close everything but emacs and VS
 
 * How it goes
 ** Show the application without Resharper.
   VS2015 has brought some of the tools that were already present on Resharper
-*** TODO Show the following:
+*** TODO Show the following: [0/6]
   - [ ] The code all the same color. Unneded using statements now appear greyed out
   - [ ] Renaming has improved 
   - [ ] options available on the right click  menu
   - [ ] Some squiggles
   - [ ] Ctrl+. options
   - [ ] Show refactor options
+  - [ ] No brace completion
 ** Show the application on VS with Resharper
 Resharper is massive in scope
-*** TODO Show the following:
+*** TODO Show the following: [0/6]
   - [ ] Shaded unused code
   - [ ] options available on the right click menu
   - [ ] More squiggles
   - [ ] unused code
   - [ ] more intellisense
  -  [ ] Navigate To
-*** TODO Demonstrate the use of alt+enter
+*** TODO Demonstrate the use of alt+enter [0/6]
   - [ ] Create classes -> Player
   - [ ] Create methods -> NextCard
   - [ ] Create fields out of constructor parameters
   - [ ] Add references and using statements as part of intellisense -> Deck Constructor
   - [ ] Refactor code
   - [ ] Code suggestions
-*** TODO Show refactor options 
+*** TODO Show refactor options [0/4]
 Ctrl+Shift+R
   - [ ] Rename -> PlayersAreAlive
   - [ ] Extract Method -> BothPlayersAreAlive
   - [ ] Extract class
   - [ ] Extract Interface
-*** TODO More options
+*** TODO Options [0/3]
+  - [ ] Use CamelHumps
+  - [ ] Closing brace
+  - [ ] Code Editing
+*** TODO More options [0/3]
   - [ ] Insert Code
-*** TODO Advanced usages
   - [ ] Show options
   - [ ] Cleanup Code
-*** TODO Unit Tests runner
+*** TODO Unit Tests runner [0/4]
   - [ ] Show unit test runner
   - [ ] Run tests
   - [ ] Test sessions
   - [ ] Rename sessions
-*** TODO ToDo lists
+*** TODO ToDo lists [0/1]
   - [ ] Search, Group By, Filter
-*** TODO Options
-  - [ ] Use CamelHumps
-  - [ ] Closing brace
-  - [ ] Code Editing

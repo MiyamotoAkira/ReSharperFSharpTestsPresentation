@@ -15,6 +15,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration Tests", "Integr
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TradingCardIntegrationTests", "TradingCardIntegrationTests\TradingCardIntegrationTests.fsproj", "{126D4472-2F60-4C5B-9873-BC8B29C3656D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BDD Testing", "BDD Testing", "{C01F2CA0-7AAD-4560-8432-D30D24C8BD9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecflowDefinitions", "SpecflowDefinitions\SpecflowDefinitions.csproj", "{6DF2CF32-4DA7-4C4A-80E5-DD6E04D100F4}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Specflow Steps", "Specflow Steps\Specflow Steps.fsproj", "{95C7854F-E5C2-42EA-BB98-D5142CC1F949}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +43,14 @@ Global
 		{126D4472-2F60-4C5B-9873-BC8B29C3656D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{126D4472-2F60-4C5B-9873-BC8B29C3656D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{126D4472-2F60-4C5B-9873-BC8B29C3656D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF2CF32-4DA7-4C4A-80E5-DD6E04D100F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF2CF32-4DA7-4C4A-80E5-DD6E04D100F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF2CF32-4DA7-4C4A-80E5-DD6E04D100F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF2CF32-4DA7-4C4A-80E5-DD6E04D100F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C7854F-E5C2-42EA-BB98-D5142CC1F949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C7854F-E5C2-42EA-BB98-D5142CC1F949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C7854F-E5C2-42EA-BB98-D5142CC1F949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C7854F-E5C2-42EA-BB98-D5142CC1F949}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,5 +58,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5D789D16-0868-4B18-B01F-5B816232F194} = {9613516B-0560-40C8-880C-D98197DFFE14}
 		{126D4472-2F60-4C5B-9873-BC8B29C3656D} = {56BC0AC3-5E15-4C69-A719-D6BB6F6135C1}
+		{6DF2CF32-4DA7-4C4A-80E5-DD6E04D100F4} = {C01F2CA0-7AAD-4560-8432-D30D24C8BD9A}
+		{95C7854F-E5C2-42EA-BB98-D5142CC1F949} = {C01F2CA0-7AAD-4560-8432-D30D24C8BD9A}
 	EndGlobalSection
 EndGlobal
