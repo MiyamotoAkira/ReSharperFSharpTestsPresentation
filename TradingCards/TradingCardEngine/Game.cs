@@ -5,25 +5,11 @@ namespace TradingCardEngine
 {
     public class Game
     {
+        private IPlayer player1;
+        private IPlayer player2;
+
         public void GameLoop()
         {
-            var player1 = new Player();
-            var player2 = new Player();
-
-            var deck1 = CreateBasicDeck();
-            var deck2 = CreateBasicDeck();
-
-            // ToDo: Create a start hand
-            player1.SetDeck(deck1);
-            player1.AddCardToHand();
-            player1.AddCardToHand();
-            player1.AddCardToHand();
-
-            player2.SetDeck(deck2);
-            player2.AddCardToHand();
-            player2.AddCardToHand();
-            player2.AddCardToHand();
-
             var activePlayer = player1;
             var inactivePlayer = player2;
             while (PlayersAreAlive(player1, player2))
@@ -34,7 +20,53 @@ namespace TradingCardEngine
             }
         }
 
-        private void PlayerTurn(ref Player activePlayer, ref Player inactivePlayer)
+        public void SetSecondPlayerHand()
+        {
+            player2.AddCardToHand();
+            player2.AddCardToHand();
+            player2.AddCardToHand();
+        }
+
+        public void SetSecondPlayerDeck()
+        {
+            var deck2 = CreateBasicDeck();
+            player2.SetDeck(deck2);
+        }
+
+        public void SetFirstPlayerHand()
+        {
+            player1.AddCardToHand();
+            player1.AddCardToHand();
+            player1.AddCardToHand();
+        }
+
+        public void SetFirstPlayerDeck()
+        {
+            var deck1 = CreateBasicDeck();
+            player1.SetDeck(deck1);
+        }
+
+        public void CreateSecondPlayer()
+        {
+            player2 = new Player();
+        }
+
+        public void SetFirstPlayer(IPlayer player)
+        {
+            player1 = player;
+        }
+
+        public void SetSecondPlayer(IPlayer player)
+        {
+            player2 = player;
+        }
+
+        public void CreateFirstPlayer()
+        {
+            player1 = new Player();
+        }
+
+        private void PlayerTurn(ref IPlayer activePlayer, ref IPlayer inactivePlayer)
         {
             ManaPhase(activePlayer);
             DrawCardPhase(activePlayer);
@@ -65,7 +97,7 @@ namespace TradingCardEngine
             inactivePlayer = temp;
         }
 
-        private static void DiscardPhase(Player activePlayer)
+        private static void DiscardPhase(IPlayer activePlayer)
         {
             if (activePlayer.HandCount > 5)
             {
@@ -73,7 +105,7 @@ namespace TradingCardEngine
             }
         }
 
-        private static void DrawCardPhase(Player activePlayer)
+        private static void DrawCardPhase(IPlayer activePlayer)
         {
             if (activePlayer.DeckCount > 0)
             {
@@ -85,7 +117,7 @@ namespace TradingCardEngine
             }
         }
 
-        private static void ManaPhase(Player activePlayer)
+        private static void ManaPhase(IPlayer activePlayer)
         {
             if (activePlayer.Mana < 10)
             {
@@ -120,7 +152,7 @@ namespace TradingCardEngine
             });
         }
 
-        private static bool PlayersAreAlive(Player player1, Player player2)
+        public static bool PlayersAreAlive(IPlayer player1, IPlayer player2)
         {
             return player1.IsPlayerAlive() && player2.IsPlayerAlive();
         }

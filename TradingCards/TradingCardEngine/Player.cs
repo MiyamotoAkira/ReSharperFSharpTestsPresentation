@@ -1,6 +1,6 @@
 ﻿namespace TradingCardEngine
 {
-    public class Player
+    public class Player : IPlayer
     {
         private int life;
         private int mana;

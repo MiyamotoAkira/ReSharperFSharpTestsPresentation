@@ -12,6 +12,12 @@ namespace TradingCardCli
         static void Main(string[] args)
         {
             Game game = new Game();
+            game.CreateFirstPlayer();
+            game.CreateSecondPlayer();
+            game.SetFirstPlayerDeck();
+            game.SetFirstPlayerHand();
+            game.SetSecondPlayerDeck();
+            game.SetSecondPlayerDeck();
             game.GameLoop();
         }
     }

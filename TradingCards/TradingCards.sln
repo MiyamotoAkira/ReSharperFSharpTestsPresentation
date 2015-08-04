@@ -19,7 +19,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BDD Testing", "BDD Testing"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecflowDefinitions", "SpecflowDefinitions\SpecflowDefinitions.csproj", "{6DF2CF32-4DA7-4C4A-80E5-DD6E04D100F4}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Specflow Steps", "Specflow Steps\Specflow Steps.fsproj", "{95C7854F-E5C2-42EA-BB98-D5142CC1F949}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SpecflowSteps", "Specflow Steps\SpecflowSteps.fsproj", "{95C7854F-E5C2-42EA-BB98-D5142CC1F949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingCardWeb", "TradingCardWeb\TradingCardWeb.csproj", "{E1994045-EABE-4EE6-9E44-36A9F4B966AB}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TickSpeckTests", "TickSpeckTests\TickSpeckTests.fsproj", "{A2388F1C-F862-41DD-940F-F6B5387473FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{95C7854F-E5C2-42EA-BB98-D5142CC1F949}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95C7854F-E5C2-42EA-BB98-D5142CC1F949}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95C7854F-E5C2-42EA-BB98-D5142CC1F949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1994045-EABE-4EE6-9E44-36A9F4B966AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1994045-EABE-4EE6-9E44-36A9F4B966AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1994045-EABE-4EE6-9E44-36A9F4B966AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1994045-EABE-4EE6-9E44-36A9F4B966AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2388F1C-F862-41DD-940F-F6B5387473FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2388F1C-F862-41DD-940F-F6B5387473FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2388F1C-F862-41DD-940F-F6B5387473FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2388F1C-F862-41DD-940F-F6B5387473FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,5 +72,6 @@ Global
 		{126D4472-2F60-4C5B-9873-BC8B29C3656D} = {56BC0AC3-5E15-4C69-A719-D6BB6F6135C1}
 		{6DF2CF32-4DA7-4C4A-80E5-DD6E04D100F4} = {C01F2CA0-7AAD-4560-8432-D30D24C8BD9A}
 		{95C7854F-E5C2-42EA-BB98-D5142CC1F949} = {C01F2CA0-7AAD-4560-8432-D30D24C8BD9A}
+		{A2388F1C-F862-41DD-940F-F6B5387473FA} = {C01F2CA0-7AAD-4560-8432-D30D24C8BD9A}
 	EndGlobalSection
 EndGlobal

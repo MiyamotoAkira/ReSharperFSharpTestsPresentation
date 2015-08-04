@@ -16,6 +16,7 @@
   - [ ] F# Console
   - [ ] Native access to all C#
   - [ ] Units of Measure
+  - [ ] Pattern Matching
 * F# as a test
 ** Why?
   - [ ] All the above
