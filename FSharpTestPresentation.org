@@ -33,5 +33,4 @@
   - [ ] Code quotations
   - [ ] Specflow
   - [ ] TickSpec
-  - [ ] Selenium
   - [ ] Canopy
